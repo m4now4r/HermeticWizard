@@ -1,4 +1,4 @@
-```c
+
 void __thiscall mw_main_proc(mw_ctx_t *arg_ctx)
 {
   if ( !arg_ctx->dwValue )
@@ -68,4 +68,4 @@ void __thiscall mw_main_proc(mw_ctx_t *arg_ctx)
     }
   }
 }
-```
+
