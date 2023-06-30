@@ -1,4 +1,4 @@
-```c
+
 void __cdecl __noreturn exec_x32_1(int a1, int a2, LPCWSTR lpCmdLine)
 {
   mw_ctx.wstr_dll = L"dll";
@@ -73,4 +73,4 @@ LABEL_13:
   }
   ExitProcess(!mw_ctx.dwValue);
 }
-```
+
