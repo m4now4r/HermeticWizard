@@ -1,4 +1,4 @@
-```c
+
 bool __thiscall mw_connect_to_remote_server_and_load_dll_using_COM(mw_ctx_t *arg_ctx)
 {
   vb_result = 0;
@@ -379,4 +379,4 @@ release_com_obj:
     vp_IWbemLocator->lpVtbl->Release(vp_IWbemLocator);
   return vb_result;
 }
-```
+
