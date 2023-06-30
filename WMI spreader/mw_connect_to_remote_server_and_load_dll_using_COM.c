@@ -1,8 +1,6 @@
 ```c
 bool __thiscall mw_connect_to_remote_server_and_load_dll_using_COM(mw_ctx_t *arg_ctx)
 {
-  // [COLLAPSED LOCAL DECLARATIONS. PRESS KEYPAD CTRL-"+" TO EXPAND]
-
   vb_result = 0;
   v_ctx = arg_ctx;
   // Registers security and sets the default security values for the process.
